@@ -3,15 +3,16 @@
 <html lang="en-ca">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="My first webpage, with MDL">
+    <meta name="description" content="Niko's first webpage, with MDL">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Niko (original author: Ms Raffin)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<!-- Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-purple.min.css" />
-    <title>My first webpage, with MDL</title>
+    <!-- Also Googles MDL. Determines the color scheme of the website, in this case red and orange. -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-deep_orange.min.css" /> 
+    <title>Niko's First Webpage, with MDL</title>
   </head>
   <body>
 		<!-- Google's MDL -->
@@ -21,7 +22,7 @@
 			<!-- Web page header -->
       <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">      
-          <span class = "mdl-layout-title">My First Web Page using MDL Components</span>          
+          <span class = "mdl-layout-title">Niko's First Web Page using MDL Components</span>          
         </div>       
       </header>
 			<br>
@@ -29,7 +30,7 @@
 			<!-- Container for web page content -->
       <main class = "mdl-layout__content" style = "padding-left:20px">
 				<!-- Get user input -->
-        <div class = "page-content">Enter the side length of a square:</div>
+        <div class = "page-content">Evil Egg Generator:</div>
 				
         <!-- Simple Textfield for Integers (not decimals)-->
         <form action="#">
@@ -37,21 +38,22 @@
             <!-- input pattern attribute -->
             <input class="mdl-textfield__input" type="text" pattern="[0-9]*" id="demo-input" />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="demo-input">Side of square (mm)</label>
+            <label class="mdl-textfield__label" for="demo-input">Incredibly villainous and mischevious egg</label>
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error" style = "padding-left:10px">Input is not an integer</span>
           </div>
         </form>				
 
         <!-- Raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
-          Calculate area
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" inline >
+          Calculate Egg
         </button>
         <br></br>
 				<!-- Link to second web page. -->
         <p>
           Here is the link to my <a href="./more_mdl.html">second web page</a>.
         </p>
+        <img src="images/evilegg.jpg" alt="Evil Egg" width="400" height="500">>
       </main>
     </div>
   </body>
